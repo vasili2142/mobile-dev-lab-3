@@ -42,16 +42,17 @@ export default (gameWorld) => {
     ),
 
     Circle1: Circle1(world, "red", { x: 65, y: 600 }, 10),
-
-    Circle2: Circle2(world, "red", { x: 0, y:0 }, 10),
-    Circle3: Circle2(world, "red", { x: 0, y: 0 }, 10),
-    Circle4: Circle2(world, "red", { x: 0, y: 0 }, 10),
-    Circle5: Circle2(world, "red", { x: 0, y: 0 }, 10),
-    Circle6: Circle2(world, "red", { x: 0, y: 0 }, 10),
-    Circle7: Circle2(world, "red", { x: 0, y: 0 }, 10),
-    Circle8: Circle2(world, "red", { x: 0, y: 0 }, 10),
-    Circle9: Circle2(world, "red", { x: 0, y: 0 }, 10),
-
-    Circle10: Circle1(world, "red", { x: 300, y: 600 }, 10),
+    Circle2: Circle2(world, "red", { x: 75, y: 600 }, 10),
+    Circle3: Circle2(world, "red", { x: 85, y: 600 }, 10),
+    Circle4: Circle2(world, "red", { x: 95, y: 600 }, 10),
+    Circle5: Circle2(world, "red", { x: 105, y: 600 }, 10),
+    Circle6: Circle2(world, "red", { x: 115, y: 600 }, 10),
+    Circle7: Circle2(world, "red", { x: 125, y: 600 }, 10),
+    Circle8: Circle2(world, "red", { x: 135, y: 600 }, 10),
+    Circle9: Circle2(world, "red", { x: 145, y: 600 }, 10),
+    Circle10: Circle2(world, "red", { x: 145, y: 600 }, 10),
+    Circle11: Circle2(world, "red", { x: 145, y: 600 }, 10),
+    Circle12: Circle2(world, "red", { x: 145, y: 600 }, 10),
+    Circle13: Circle1(world, "red", { x: 300, y: 600 }, 10),
   };
 };

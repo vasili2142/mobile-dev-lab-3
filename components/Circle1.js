@@ -27,7 +27,6 @@ export default (world, color, pos, radius) => {
   const circle1 = Matter.Bodies.circle(pos.x, pos.y, radius, {
     label: "Circle1",
     isStatic: true,
-    //collisionFilter: { group: -1 } ,
   });
 
   Matter.World.add(world, circle1);
